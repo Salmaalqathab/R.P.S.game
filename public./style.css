@@ -1,0 +1,119 @@
+{
+    box-sizing: border-box;
+  }
+  [v-cloak] {
+    display: none
+  }
+  
+  body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 25px;
+  }
+  
+  h1 {
+    font-weight: bold;
+    color: pink;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  p {
+    max-width: 600px;
+  }
+  
+  form {
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: cyan;
+    display: inline-block;
+    width: 100%;
+    max-width: 340px;
+    border-radius: 3px;
+  }
+  
+  input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  button {
+    font-size: 16px;
+    border-radius: 3px;
+    background-color: lightgrey;
+    border: 1px solid grey;
+    box-shadow: 2px 2px teal;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: yellow;
+  }
+  
+  button:active {
+    box-shadow: none;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  footer {
+    margin-top: 50px;
+    padding-top: 25px;
+    border-top: 1px solid lightgrey;
+  }
+  
+  footer > a {
+    color: #BBBBBB;
+  }
+  
+  .nicejob {
+    text-decoration: line-through;
+  }
+  
+  .weapons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .weapons div {
+    margin: 10px;
+    padding: 10px 5px;
+    background-color: #ccc;
+    display: inline-block;
+    border-radius: 3px;
+    min-width: 80px;
+    text-align: center;
+  }
+  
+  .weapons div:hover {
+    color: #fff;
+    background-color: #333;
+    cursor: pointer;
+  }
+  
+  .arena {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+  }
+  
+  img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .message {
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+    height: 36px;
+  }
